@@ -23,21 +23,53 @@ Below you will find the results of the 6 machine learning models. The results wi
 ### Naive Random Oversampling
 ![Naive](https://github.com/smithsh14/Credit_Risk_Analysis/blob/main/Images/NaiveRandomOversampling.png)
 
+1) Logistic Regression: Random State = 1
+2) Balanced Accuracy Score: 0.6463970560994359
+3) Precision: The precision is low for High Risk loans and high for Low Risk Loans
+4) Recall: High/Low Risk = .71/.58
+
 ### SMOTE Oversampling
 ![SMOTE](https://github.com/smithsh14/Credit_Risk_Analysis/blob/main/Images/SMOTEOversampling.png)
+
+1) Logistic Regression: Random State = 1
+2) Balanced Accuracy Score: 0.6586230769943224
+3) Precision: The precision is low for High Risk loans and high for Low Risk Loans
+4) Recall: High/Low Risk = .63/.68
 
 ### Undersampling
 ![Undersampling](https://github.com/smithsh14/Credit_Risk_Analysis/blob/main/Images/Undersampling.png)
 
+1) Logistic Regression: Random State = 78
+2) Balanced Accuracy Score: 0.5447339051023905
+3) Precision: The precision is low for High Risk loans and high for Low Risk Loans
+4) Recall: High/Low Risk = .69/.40
+
 ### Combination Oversampling and Undersampling 
 ![Combination](https://github.com/smithsh14/Credit_Risk_Analysis/blob/main/Images/Combination.png)
 
+1) Logistic Regression: Random State = 1
+2) Balanced Accuracy Score: 0.6480442302883235
+3) Precision: The precision is low for High Risk loans and high for Low Risk Loans
+4) Recall: High/Low Risk = .72/.57
+
 ### Balanced Random Forest Classifier
 ![Forest](https://github.com/smithsh14/Credit_Risk_Analysis/blob/main/Images/BalancedRandomForest.png)
+
+1) Balance Random Forest Classifier: Random State = 1
+2) Balanced Accuracy Score: 0.7877672625306695
+3) Precision: The precision is low for High Risk loans and high for Low Risk Loans
+4) Recall: High/Low Risk = .67/.91
+
 ![RISK](https://github.com/smithsh14/Credit_Risk_Analysis/blob/main/Images/BalancedRandomForest_RISK.png)
 
 ### Easy Ensemble AdaBoost Classifier
 ![AdaBoost](https://github.com/smithsh14/Credit_Risk_Analysis/blob/main/Images/AdaBoostClassifer.png)
+
+1) Easy Ensemble Classifier: Random State = 1
+2) Balanced Accuracy Score: 0.925427358175101
+3) Precision: The precision is low for High Risk loans and high for Low Risk Loans
+4) Recall: High/Low Risk = .91/.94
+
 ![RISK](https://github.com/smithsh14/Credit_Risk_Analysis/blob/main/Images/AdaBoostClassifer_RISK.png)
 
 ## Summary
